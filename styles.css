@@ -1,0 +1,26 @@
+.card{
+width:600px;
+border: 1px solid #ffcbf2;
+padding: 20px;
+margin: 50px auto auto;
+display: flex;
+justify-content: space-around;
+background-color: #ffcbf2;
+border-bottom: 6px solid #e5b3fe;
+color: #011627;
+transition: transform .2s;
+border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.08);
+    box-shadow: 10px 10px #edf2fb;
+}
+
+img{
+    width:200px;
+}
+
+p{
+    font-weight: bold;
+}
